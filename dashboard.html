@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Dashboard</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9fafb;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #111827;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 15px;
+    font-size: 14px;
+    color: #374151;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    Painel Administrativo
+</header>
+
+<div class="container">
+    <h2>Galeria do Jiu-Jitsu</h2>
+<div class="galeria">
+    <img src="WhatsApp Image 2026-02-25 at 12.27.30.jpeg">
+    <img src="WhatsApp Image 2026-02-25 at 19.30.27.jpeg">
+
+</div>
+</body>
+</html>
